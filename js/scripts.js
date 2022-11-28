@@ -31,14 +31,14 @@ let pokemonList = [
         types: ['fire']
     },
     {
-        name: 'Arbok',
-        height: 3.5,
-        types: ['poison']
-    },
-    {
         name: 'Parasect',
         height: 1,
         types: ['grass', 'bug']
+    },
+    {
+        name: 'Arbok',
+        height: 3.5,
+        types: ['poison']
     }
 ];
 
