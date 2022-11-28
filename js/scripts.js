@@ -31,8 +31,24 @@ let pokemonList = [
         types: ['fire']
     },
     {
+        name: 'Arbok',
+        height: 3.5,
+        types: ['poison']
+    },
+    {
         name: 'Parasect',
         height: 1,
         types: ['grass', 'bug']
     }
 ];
+
+//loop to print pokemon objects
+for (let i = 0; i < pokemonList.length; i++){
+    if (pokemonList[i].height >= 3){
+        document.write(pokemanList[i].name + ' (height: ' + pokemonList[i].height + ' m) Wow! Big pokemon!' +  '<br>');
+    }else if (pokemonList[i].height <= 0.3){
+        document.write(pokemonList[i].name + ' (height: ' + pokemonList[i].height + ' m) That is a small pokemon.' + '<br>');
+    }else {
+        document.write(pokemonList[i].name + ' (height: ' + pokemonList[i].height + ' m)' + '<br>');
+    }
+}
